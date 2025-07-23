@@ -60,7 +60,7 @@ npm install
 npm run dev
 ```
 
-后端安装与启动:
+后端安装与启动1:
 
 ```bash
 # 进入api目录
@@ -68,6 +68,21 @@ cd api
 
 # 安装依赖
 pip install -r requirements.txt
+
+
+# 启动服务
+uvicorn index:app --reload --port 8001
+```
+
+
+后端安装与启动2:
+
+```bash
+# 进入api目录
+uv venv
+
+# 安装依赖
+uv pip install -r requirements.txt
 
 # 启动服务
 uvicorn index:app --reload --port 8001

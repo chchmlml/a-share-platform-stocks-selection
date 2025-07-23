@@ -81,6 +81,8 @@ api/include/
 api/Scripts/ # Windows venv
 api/bin/    # Unix venv
 
+.venv/
+
 # Specific package caches or data
 api/.ipynb_checkpoints
 api/.python-version
